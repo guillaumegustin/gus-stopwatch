@@ -65,4 +65,4 @@ class StopWatch {
     }
 }
 
-module.exports = new StopWatch();
+module.exports = StopWatch;

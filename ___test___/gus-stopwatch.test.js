@@ -1,12 +1,12 @@
-const stopwatch = require('../index.js');
+const sw = require('../index.js');
 
 function sleep(s) {
     return new Promise(resolve => setTimeout(resolve, s*1000));
   }
 
 test('Test basic stopwatch', () => {
+    const stopwatch = new sw();
     const TIME_SECONDS = 3
-
     const now = new Date();
     stopwatch.start(() => console.log("tick"));
     expect(stopwatch.isRunning()).toBe(true);

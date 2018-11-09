@@ -9,7 +9,8 @@ Ok, well I developped this simple stopwatch module cause I needed it. It is pret
 ## usage
 
 ```js
-    const stopwatch = require('gus-stopwatch');
+    const sw = require('gus-stopwatch');
+    const stopwatch = new sw();
 
     //start takes an optional callback that is executed at each additional second. Pretty useful to update view or something
     stopwatch.start(() => console.log("one more second"));

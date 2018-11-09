@@ -1,6 +1,6 @@
 {
   "name": "gus-stopwatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is a simple npm module allowing you to handle a stopwatch",
   "main": "index.js",
   "author": "Guillaume Gustin <github@guillaumegustin>",
