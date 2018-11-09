@@ -1,0 +1,14 @@
+{
+  "name": "gus-stopwatch",
+  "version": "1.0.0",
+  "description": "this is a simple npm module allowing you to handle a stopwatch",
+  "main": "index.js",
+  "author": "Guillaume Gustin <github@guillaumegustin>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
